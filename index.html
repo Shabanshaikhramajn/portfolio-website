@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(17, 17, 17);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(48, 46, 46);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 80px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+           color: rgb(239, 255, 15);
+           font-size: 1.01rem;
+        }
+        .left{
+            font-size: 1.3rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+        }
+        .leftsection{
+            
+            width: 30%;
+            margin: 50px 0;
+            /* background-color: red; */
+            font-size: 2.6rem;
+        }
+
+
+        .leftsection .buttons{
+            
+            padding: 12px;
+            background-color: rgb(66, 23, 80);
+            color: rgb(238, 229, 229);
+            border: 2px solid rgb(245, 238, 238);
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+
+        .leftsection .btn{
+            padding: 10px;
+            /* background-color: red; */
+        }
+
+
+        .rightsection{
+            width: 30%;
+            /* background-color: red; */
+        }
+        .rightsection img{
+            width: 80%;
+            margin: 70px 0;
+        }
+        .purple{
+            color: purple;
+        }
+        .grey{
+            color: grey;
+        }
+        #element{
+            color: purple;
+        }
+        .secondsection{
+           max-width: 80vh;
+            margin: auto;
+
+            font-size: 1.1rem;
+            height: 80vh;
+
+
+        }
+        main hr{
+            border: 0;
+            height: 2px;
+            background-color: #999595;
+            margin: 40px 30px;
+        }
+
+        .box{
+            background-color: rgb(139, 132, 132);
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: rgb(139, 132, 132);
+            margin: 0 80px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-text{
+            top: 75px;
+            /* background-color: red; */
+            position: relative;
+            width: 150px;
+        }
+
+        .vertical-desc{
+            top: 75px;
+            /* background-color: red; */
+            position: relative;
+            color: grey;
+            font-size: 12px;
+            width: 150px;
+        }
+
+      
+
+
+        .footer{
+            background-color: rgb(38, 25, 43);
+            height: 233px;
+            padding: 23px 23px;
+            margin:  300px 0;
+            display: flex;
+            justify-content: space-evenly;
+            color: rgb(230, 213, 213);
+        }
+        .footer ul{
+            list-style: none;
+        }
+
+
+        .text-center{
+            text-align: center;
+            color: grey;
+        font-size: 13px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">SHABAN Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href = "/">HOME </a></li>
+                    <li><a href = "/">ABOUT </a></li>
+                    <li><a href = "/">SERVICE </a></li>
+                    <li><a href = "/">CONTACT ME </a></li>
+                </ul>
+
+
+
+            </div>
+        </nav>
+    </header>
+    <header>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">Hii my name is 
+                    <span class="purple">Shaban</span>
+                    i am a 
+                    <span id="element"></span>
+                <div class="btn">
+                <button class="buttons">Download resume</button>
+                <button class="buttons">Visit github</button>
+            </div>
+                </div>
+                <div class="rightsection">
+                    <img src="bg.png" alt="no image">
+
+                </div>
+            </section>
+
+        </main>
+    </header>
+
+
+            <section class="secondsecion"> <div class="second">
+               <hr> 
+               <span class="grey">What i have done so far</span>
+               <h1>Work Experience</h1>
+                <div class="box">
+                    <div class="vertical">
+                        <img class ="image-top" src="developer.png">
+                        <div class="vertical-text">HTML developer 2012-14</div>
+                  <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Sunt, perspiciatis.</div>  </div>
+
+
+                     <div class="vertical">
+                        <img class ="image-top" src="developer.png">
+                        <div class="vertical-text">HTML developer 2012-14</div>
+                  <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perspiciatis.</div>  </div>
+                  <div class="vertical">
+                    <img class ="image-top" src="developer.png">
+                    <div class="vertical-text">HTML developer 2012-14</div>
+              <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perspiciatis.</div>  </div>
+              <div class="vertical">
+                <img class ="image-top" src="developer.png">
+                <div class="vertical-text">HTML developer 2012-14</div>
+          <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perspiciatis.</div>  </div>
+          <div class="vertical">
+            <img class ="image-top" src="developer.png">
+            <div class="vertical-text">HTML developer 2012-14</div>
+      <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perspiciatis.</div>  </div>
+
+
+                    
+                    
+                </div>
+
+
+            </section>
+        </div>
+
+    <footer ><div>
+       <div class="footer"> <div class="footer-first">
+            <h3>SHABAN dev portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>home</li>
+                <li>about me</li>
+                <li>contact us </li>
+                <li>menu</li>
+            </ul>
+        </div>
+        <div class="footer-third"> <ul>
+                <li>home</li>
+                <li>about me</li>
+                <li>contact us </li>
+                <li>menu</li>
+            </ul></div>
+        <div class="footer-four"> <ul>
+                <li>home</li>
+                <li>about me</li>
+                <li>contact us </li>
+                <li>menu</li>
+            </ul></div>
+    </div>
+    <div class="text-center">www.shabanportfolio.com | @all rights reserved</div>
+</div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['web developer', ' graphic desinger.', 'trader.'],
+          typeSpeed: 70,
+        });
+      </script>
+</body>
+</html>
